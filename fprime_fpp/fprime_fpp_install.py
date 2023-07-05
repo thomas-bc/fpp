@@ -266,7 +266,7 @@ def install_fpl_via_git(installation_directory: Path, subprocess_environment: di
         )
         sys.exit(-1)
     steps = [
-        ["git", "clone", "https://github.com/fprime-community/fprime-layout"],
+        ["git", "clone", "https://github.com/thomas-bc/fprime-layout"],
         ["fprime-layout/install", str(installation_directory)]
     ]
     for step in steps:
